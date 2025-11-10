@@ -3,14 +3,7 @@ const { response } = require('express');
 const createUser = (req, res = response) => {
   const { name, email, password } = req.body;
 
-  if (name.length < 5) {
-    return res.status(400).json({
-      ok: false,
-      msg: 'Name must be at least 5 characters long.',
-    });
-  }
-
-  res.json({
+  res.status(201).json({
     ok: true,
     msg: 'register',
     name,
