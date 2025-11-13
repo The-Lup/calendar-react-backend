@@ -35,7 +35,7 @@ const createUser = async (req, res = response) => {
     console.log(error);
     res.status(500).json({
       ok: false,
-      msg: 'Please contact your administrator.',
+      msg: 'Please contact your administrator',
     });
   }
 };
