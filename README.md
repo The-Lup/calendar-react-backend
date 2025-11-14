@@ -1,6 +1,16 @@
 # Calendar React Backend
 
-This repository contains a Node.js REST API built to support a calendar application. The main purpose of this project was to create a fully functional backend server using **Express**, connect it to **MongoDB** using **Mongoose**, and provide authentication, event management, and date validation.
+This repository is the backend for the [React Calendar Application](https://github.com/The-Lup/calendar-react).
+
+It provides a REST API built with Node.js, Express, and MongoDB (using Mongoose). Key features include:
+
+- Secure user authentication using JWT (JSON Web Tokens).
+
+- Full CRUD operations (Create, Read, Update, Delete) for calendar events.
+
+- Date validation using Moment.js.
+
+This server is designed to be simple, reliable, and fully compatible with the React frontend.
 
 ## 🚀 Features
 
