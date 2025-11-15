@@ -2,7 +2,6 @@ const { response } = require('express');
 const jwt = require('jsonwebtoken');
 
 const validateJWT = (req, res = response, next) => {
-  //Api-Token headers
   const token = req.header('Api-Token');
 
   if (!token) {
